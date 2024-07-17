@@ -1,0 +1,18 @@
+<nav class="px-6 relative hover:bg-slate-100 duration-150"*ngFor="let user of users">
+  <li class="flex justify-stretch py-2
+  " >
+    <div class="img"><img [src]="user.img" alt="" class="rounded-full w-16"></div>
+    <div class="contant flex flex-col w-full">
+      <div class=" flex items-center justify-between px-3">
+        <h2 class="w-full">{{user.name}}</h2>
+        <p class="items-end text-slate-500 text-sm ">{{user.time}}</p>
+    </div>
+    <div class="massage px-3 flex justify-between item-center">
+      <p class="text-sm text-slate-500">{{user.massage}}</p>
+      <p class="text-sm" [ngClass]="{'text-green-500': user.state === 'online', 'text-slate-500': user.state !== 'online'}">{{user.state}}</p>
+    </div>
+  </div>
+
+  </li>
+  <span class=" bg-[#f0f2f5] h-[1.2px] flex my-2 w-full"></span>
+  </nav>

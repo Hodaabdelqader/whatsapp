@@ -1,0 +1,10 @@
+.massage::before{
+    content: '';
+    width:20px ;
+    height:20px ;
+    left: -1px;
+    top: -4px;
+    background:linear-gradient(135deg,white 100%,white 0%,transparent 50%,transparent) ;
+    position: absolute;
+    border-radius: 0px 20px;
+}

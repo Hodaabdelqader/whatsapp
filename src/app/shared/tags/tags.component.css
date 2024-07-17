@@ -1,0 +1,4 @@
+.selected {
+  background-color: rgba(0, 128, 0, 0.199); /* Change to your desired background color */
+  color: green; /* Change to your desired text color */
+}

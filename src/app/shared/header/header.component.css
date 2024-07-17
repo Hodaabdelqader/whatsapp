@@ -1,0 +1,18 @@
+.leftSide{
+  height: 100vh ;
+  /* width: 38%; */
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 70%; /* Same as the .rightSide width */
+  z-index: 1000;
+}
+.massage{
+  position: absolute;
+  top: 60px;
+}
+.send{
+  width: 69%;
+}
+

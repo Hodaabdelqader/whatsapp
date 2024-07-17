@@ -1,0 +1,12 @@
+<div class="px-5">
+  <ul class="flex items-center gap-2 cursor-pointer">
+    <li
+      *ngFor="let item of items"
+      (click)="selectItem(item)"
+      [class.selected]="item === selectedItem"
+      class="px-3 py-1 bg-[#f0f2f5] rounded-2xl  hover:bg-slate-200 duration-150 ease-in-out text-slate-600"
+    >
+      {{ item }}
+    </li>
+  </ul>
+</div>
